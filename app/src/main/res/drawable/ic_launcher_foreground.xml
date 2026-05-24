@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Golden Silhouette Crown -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M24,72 L24,40 L38,54 L54,28 L70,54 L84,40 L84,72 Z" />
+    <!-- Layered Inner Crown -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M28,70 L28,45 L40,56 L54,34 L68,56 L80,45 L80,70 Z" />
+    <!-- Ruby jewel circles on the three spikes -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M25,43 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M51,32 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M77,43 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <!-- Crown Base Band -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M28,64 L80,64 L80,70 L28,70 Z" />
+</vector>

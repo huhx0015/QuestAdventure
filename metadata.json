@@ -1,0 +1,6 @@
+{
+  "name": "Quest Adventure",
+  "description": "An interactive 2D map explorer for Sierra's classic Quest I - VII adventure games. Swipe horizontally and vertically to navigate coordinate screens, discover secrets, and view exploration progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
