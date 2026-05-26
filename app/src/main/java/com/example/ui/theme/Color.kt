@@ -1,4 +1,4 @@
-package com.example.ui.theme
+package com.huhx0015.questadventure.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,20 +1,18 @@
-package com.example
+package com.huhx0015.questadventure
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.example.data.repository.GameRepositoryImpl
-import com.example.domain.usecase.GetGamesUseCase
-import com.example.domain.usecase.GetMapScreenUseCase
-import com.example.presentation.ui.MapViewerScreen
-import com.example.presentation.viewmodel.MapViewModel
-import com.example.presentation.viewmodel.MapViewModelFactory
-import com.example.ui.theme.MyApplicationTheme
+import com.huhx0015.questadventure.data.repository.GameRepositoryImpl
+import com.huhx0015.questadventure.domain.usecase.GetGamesUseCase
+import com.huhx0015.questadventure.domain.usecase.GetMapScreenUseCase
+import com.huhx0015.questadventure.presentation.ui.MapViewerScreen
+import com.huhx0015.questadventure.presentation.viewmodel.MapViewModel
+import com.huhx0015.questadventure.presentation.viewmodel.MapViewModelFactory
+import com.huhx0015.questadventure.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,13 +27,11 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             MyApplicationTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    val viewModel: MapViewModel = androidx.lifecycle.viewmodel.compose.viewModel(factory = viewModelFactory)
-                    MapViewerScreen(
-                        viewModel = viewModel,
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                val viewModel: MapViewModel = androidx.lifecycle.viewmodel.compose.viewModel(factory = viewModelFactory)
+                MapViewerScreen(
+                    viewModel = viewModel,
+                    modifier = Modifier.fillMaxSize()
+                )
             }
         }
     }

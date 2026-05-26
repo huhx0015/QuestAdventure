@@ -1,7 +1,7 @@
-package com.example.domain.repository
+package com.huhx0015.questadventure.domain.repository
 
-import com.example.domain.model.GameMetadata
-import com.example.domain.model.MapScreen
+import com.huhx0015.questadventure.domain.model.GameMetadata
+import com.huhx0015.questadventure.domain.model.MapScreen
 import kotlinx.coroutines.flow.Flow
 
 interface GameRepository {

@@ -1,4 +1,4 @@
-package com.example.domain.model
+package com.huhx0015.questadventure.domain.model
 
 enum class BoundaryType {
     WRAP, // Torus wrap-around (KQ1, KQ2, KQ3)

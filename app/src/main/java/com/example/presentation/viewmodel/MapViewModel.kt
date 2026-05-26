@@ -1,13 +1,13 @@
-package com.example.presentation.viewmodel
+package com.huhx0015.questadventure.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.domain.model.BoundaryType
-import com.example.domain.model.GameMetadata
-import com.example.domain.model.MapScreen
-import com.example.domain.model.Point
-import com.example.domain.usecase.GetGamesUseCase
-import com.example.domain.usecase.GetMapScreenUseCase
+import com.huhx0015.questadventure.domain.model.BoundaryType
+import com.huhx0015.questadventure.domain.model.GameMetadata
+import com.huhx0015.questadventure.domain.model.MapScreen
+import com.huhx0015.questadventure.domain.model.Point
+import com.huhx0015.questadventure.domain.usecase.GetGamesUseCase
+import com.huhx0015.questadventure.domain.usecase.GetMapScreenUseCase
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 

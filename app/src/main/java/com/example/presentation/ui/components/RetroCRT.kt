@@ -1,4 +1,4 @@
-package com.example.presentation.ui.components
+package com.huhx0015.questadventure.presentation.ui.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background

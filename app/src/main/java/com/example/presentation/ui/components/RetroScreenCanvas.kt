@@ -1,4 +1,4 @@
-package com.example.presentation.ui.components
+package com.huhx0015.questadventure.presentation.ui.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.runtime.Composable
@@ -8,7 +8,7 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.DrawScope
-import com.example.domain.model.ScreenFeature
+import com.huhx0015.questadventure.domain.model.ScreenFeature
 
 @Composable
 fun RetroScreenCanvas(

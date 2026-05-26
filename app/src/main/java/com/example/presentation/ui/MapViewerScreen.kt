@@ -1,4 +1,4 @@
-package com.example.presentation.ui
+package com.huhx0015.questadventure.presentation.ui
 
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
@@ -28,15 +28,15 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.domain.model.GameMetadata
-import com.example.domain.model.Point
-import com.example.domain.model.ScreenFeature
-import com.example.presentation.ui.components.GridOverlay
-import com.example.presentation.ui.components.RetroCRTFrame
-import com.example.presentation.ui.components.RetroScreenCanvas
-import com.example.presentation.viewmodel.Direction
-import com.example.presentation.viewmodel.MapUiState
-import com.example.presentation.viewmodel.MapViewModel
+import com.huhx0015.questadventure.domain.model.GameMetadata
+import com.huhx0015.questadventure.domain.model.Point
+import com.huhx0015.questadventure.domain.model.ScreenFeature
+import com.huhx0015.questadventure.presentation.ui.components.GridOverlay
+import com.huhx0015.questadventure.presentation.ui.components.RetroCRTFrame
+import com.huhx0015.questadventure.presentation.ui.components.RetroScreenCanvas
+import com.huhx0015.questadventure.presentation.viewmodel.Direction
+import com.huhx0015.questadventure.presentation.viewmodel.MapUiState
+import com.huhx0015.questadventure.presentation.viewmodel.MapViewModel
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue

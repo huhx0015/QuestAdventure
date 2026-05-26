@@ -1,4 +1,4 @@
-package com.example.presentation.ui.components
+package com.huhx0015.questadventure.presentation.ui.components
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
@@ -21,7 +21,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.domain.model.Point
+import com.huhx0015.questadventure.domain.model.Point
 
 @Composable
 fun GridOverlay(

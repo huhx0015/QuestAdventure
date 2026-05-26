@@ -1,10 +1,10 @@
-package com.example.data.repository
+package com.huhx0015.questadventure.data.repository
 
-import com.example.domain.model.BoundaryType
-import com.example.domain.model.GameMetadata
-import com.example.domain.model.MapScreen
-import com.example.domain.model.ScreenFeature
-import com.example.domain.repository.GameRepository
+import com.huhx0015.questadventure.domain.model.BoundaryType
+import com.huhx0015.questadventure.domain.model.GameMetadata
+import com.huhx0015.questadventure.domain.model.MapScreen
+import com.huhx0015.questadventure.domain.model.ScreenFeature
+import com.huhx0015.questadventure.domain.repository.GameRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 

@@ -1,7 +1,7 @@
-package com.example.domain.usecase
+package com.huhx0015.questadventure.domain.usecase
 
-import com.example.domain.model.MapScreen
-import com.example.domain.repository.GameRepository
+import com.huhx0015.questadventure.domain.model.MapScreen
+import com.huhx0015.questadventure.domain.repository.GameRepository
 import kotlinx.coroutines.flow.Flow
 
 class GetMapScreenUseCase(private val repository: GameRepository) {

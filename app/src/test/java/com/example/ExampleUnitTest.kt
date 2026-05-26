@@ -1,4 +1,4 @@
-package com.example
+package com.huhx0015.questadventure
 
 import org.junit.Assert.*
 import org.junit.Test

@@ -1,9 +1,9 @@
-package com.example.presentation.viewmodel
+package com.huhx0015.questadventure.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.domain.usecase.GetGamesUseCase
-import com.example.domain.usecase.GetMapScreenUseCase
+import com.huhx0015.questadventure.domain.usecase.GetGamesUseCase
+import com.huhx0015.questadventure.domain.usecase.GetMapScreenUseCase
 
 class MapViewModelFactory(
     private val getGamesUseCase: GetGamesUseCase,

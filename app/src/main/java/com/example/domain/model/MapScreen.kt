@@ -1,4 +1,4 @@
-package com.example.domain.model
+package com.huhx0015.questadventure.domain.model
 
 enum class ScreenFeature {
     CASTLE,       // High-status royal buildings

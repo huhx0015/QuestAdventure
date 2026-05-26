@@ -1,10 +1,10 @@
-package com.example
+package com.huhx0015.questadventure
 
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onRoot
-import com.example.domain.model.ScreenFeature
-import com.example.presentation.ui.components.RetroScreenCanvas
-import com.example.ui.theme.MyApplicationTheme
+import com.huhx0015.questadventure.domain.model.ScreenFeature
+import com.huhx0015.questadventure.presentation.ui.components.RetroScreenCanvas
+import com.huhx0015.questadventure.ui.theme.MyApplicationTheme
 import com.github.takahirom.roborazzi.RobolectricDeviceQualifiers
 import com.github.takahirom.roborazzi.captureRoboImage
 import org.junit.Rule
