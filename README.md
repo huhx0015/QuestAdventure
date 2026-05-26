@@ -1,5 +1,7 @@
 # Quest Adventure
 
+[QuestAdventure.webm](https://github.com/user-attachments/assets/f3cb8d97-0ac5-401f-9c22-4246d6dd4831)
+
 Quest Adventure is an Android game app inspired by Sierra Online's adventure games from the 1980s and early 1990s. It presents a retro exploration experience where players move across quest maps, inspect rooms, and follow terminal-style narrative feedback through a modern Jetpack Compose interface.
 
 The project began as an experimental app generated with Google AI Studio to explore what Gemini 3.5 Flash could produce for Android. The repository has since evolved into a local Kotlin codebase with its own UI, layered architecture, in-memory content model, and developer workflow.
